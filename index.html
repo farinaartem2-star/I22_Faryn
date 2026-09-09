@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бронювання готелю</title>
+
+</head>
+<body>
+
+    <h1>Форма бронювання готелю</h1>
+
+    <form>
+
+        <label>Ім`я та Прізвище</label><br>
+        <input type="text" required><br>
+
+        <label>Електонна пошта</label><br>
+        <input type="email" required><br>
+
+        <label>Номер телефону</label><br>
+        <input type="tel" required><br>
+
+        <Label>Дата заїзду</Label>
+        <input type="date" required><br>
+
+        <label>Дата виїзду</label>
+        <input type="date" required><br>
+
+        <label>Кількість гостей</label>
+        <input type="number" required><br>
+
+       <label>Тип номера</label>
+
+
+       <input type="radio" name="room" required>
+       Стандарт<br>
+
+       <input type="radio" name="room" required>
+       Напівлюкс<br>
+
+       <input type="radio" name="room" required>
+       Люкс<br><br>
+
+       <label>Додаткові послуги</label><br>
+
+       <input type="checkbox">
+       Сніданок<br>
+
+       <input type="checkbox">
+       Паркінг<br>
+
+       <input type="checkbox">
+       Трансфер<br>
+
+
+       <input type="checkbox">
+       Додаткове прибирання<br>
+
+       <label>Місто</label><br><br>
+
+       <select>
+        <option> Київ</option>
+        <option>Одеса</option>
+        <option>Львів</option>
+        <option>Ужгород</option>
+        <option>Чрнівці</option>
+       </select><br><br>
+
+       <label>Дотакові побажання</label>
+       <textarea maxlength="250" rows="6" cols="40"></textarea><br>
+
+       <button type="submit">Забронювати</button>
+       <button type="reset">Очистити</button>
+
+
+    </form>
+
+</body>
+</html>

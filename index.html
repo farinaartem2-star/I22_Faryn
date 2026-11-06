@@ -1,59 +1,55 @@
 <!DOCTYPE html> 
-<html lang="en"> 
+<html lang="гл"> 
 <head> 
 
 <meta charset="UTF-8"> 
-<title>Подорожі</title> 
-
+<title>Подорожуй світом</title> 
+<link rel="stylesheet" href="style.css">
 </head>
 
+<body>
 
-<img> 
+    <header>
+     <h1 id="main-titile"></h1>
+     <p>Подорожуй разом з нами!</p>
+    </header>
 
-<h1>Подорожі Україною</h1> 
+<nav>
+    <a href="index.html">Головна</a><br>
+    <a href="index.html">Тури</a><br>
+    <a href="index.html">Контакти</a><br>
+</nav>
+ 
+<main>
 
-<p>
-    <strong>Додаткові послуги:</strong>
-</p>
-    <div> 
-        <a href="index.html">Медичне страхування</a><br>
-        <a href="index.html">Бронюваня житла</a><br>
-    </div> 
- 
-    <h2>Популярні напрямки:</h2>
-    
-    <ul>
-        <li>Карпати</li>
-        <li>Львів</li>
-        <li>Світязь</li>
-        <li>Одеса</li>
-    </ul>
- 
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm1zftYj0pPB2lRgdha2lq0MMM9cMeLLGdIDkcgoVWfrlb_u_KhqKtTNjh&s=10">
- 
-    <p> 
-        Карпати — популярний напрямок для відпочинку. 
-    </p> 
- 
-    <h3 >Замовлення туру</h3> 
- 
-    <form> 
- 
-        <label>Ваше ім'я:</label><br>
-        <input type="text" required><br>
- 
-        
- 
-        <label>Телефон:</label><br>
-        <input type="tel" required><br>
-         
- 
-        <button> 
-            Відправити заявку 
-        </button> 
- 
-    </form> 
- 
+    <h2> Популярні тури:</h2>
+
+    <selection class="cards">
+
+        <article class="cards">
+            <h3>Італія</h3>
+            <p>Подорож до Рима, Венеції та Флоренції.</p>
+            <p class="price">Вартість від 750$</p>
+        </article>
+
+        <article class="card">
+            <h3>Франція</h3>
+            <p>Екскурсійна подорож до прекрасного Парижа.</p>
+            <p class="price">Вартість від 560$</p>
+         </article>
+
+         <article class="card">
+            <h3>Іспанія</h3>
+            <p>Відпочинок на узбережжі Середземного моря.</p>
+            <p class="price">Вартість від 600$</p>
+        </article>
+
+    </selection>
+
+    <p class="important">Мпеціальні пропозиції</p>
+
+</main>
+
 </body> 
  
 </html>
